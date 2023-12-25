@@ -1,0 +1,245 @@
+style.css *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border-bottom: 2px solid rgb(235, 234, 234);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: .5rem;
+    text-decoration: none;
+
+}
+
+nav ul li:hover {
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#main {
+    padding: 1rem;
+}
+
+#container {
+    display: block;
+    justify-content: space-between;
+}
+
+
+.one-basic,
+.div-2 {
+    display: inline-flex;
+    gap: .5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.form-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: repeat(3, 1fr);
+    justify-content: space-between;
+    /* border: 2px solid orangered;  */
+    margin: 1rem auto;
+    margin-left: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.05);
+
+}
+
+.side-div {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+
+form label {
+    margin-bottom: .5rem;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.name input {
+    width: 100%;
+    padding: .4rem;
+    border: none;
+    background-color: rgba(237, 239, 242, 1);
+}
+
+#mail {
+    margin: 1.5rem 0;
+}
+
+#mail input {
+    width: 70%;
+    padding: .4rem;
+    border: none;
+    background-color: rgba(237, 239, 242, 1);
+}
+
+.first-name,
+.last-name,
+.email-div {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    margin: 1.5rem 0;
+
+    background-color: rgba(245, 247, 250, 1);
+}
+
+/* payment div container */
+
+.credit label {
+    margin-bottom: .5rem;
+}
+
+#card {
+    display: inline-flex;
+    justify-content: space-between;
+    /* padding: .5rem; */
+    /* align-items: start; */
+    /* margin-right: -.5rem; */
+}
+
+#card input {
+    width: 40%;
+    padding: .4rem;
+    border: none;
+    background-color: rgba(237, 239, 242, 1);
+}
+
+.btn-push {
+    margin: 1rem auto;
+    /* padding: .5rem; */
+}
+
+.btn-push input {
+    width: 100%;
+    color: aliceblue;
+    border: none;
+    padding: .7rem;
+    background-color: rgba(3, 142, 125, 1);
+}
+
+.support {
+    width: 100%;
+    padding: .5rem;
+    display: inline-flex;
+    justify-content: center;
+    gap: .3rem;
+    margin: 0 auto;
+}
+
+.stripe {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.side-div {
+    width: 80%;
+    background-color: rgba(17, 121, 191, 1);
+    color: white;
+    padding: 3rem;
+    float: right;
+}
+.subscription{
+    margin: 1rem auto;
+}
+.subscription span{
+    font-size: 4em;
+
+}
+.side-span sup{
+    font-size: .5em;
+}
+.side-span sub{
+    font-size: .3em;
+}
+
+.side-span strong{
+    font-size: 1em;
+    font-weight: 100;
+    margin-left: 5px;
+}
+.side-span{
+    margin-bottom: 1rem;
+}
+
+.sub-1 {
+    margin-top: 1rem ;
+}
+.benefits{
+    display: flex;
+    flex-direction: column;
+}
+.clients{
+    display: inline-flex;
+    gap: .3rem;
+    margin-bottom: 1rem;
+}
+
+.clients img{
+    color: white;
+    padding: 1rem;
+}
+
+.need p{
+    margin-bottom: 1rem;
+}
+.need a {
+    color: white;
+    /* text-decoration: none; */
+}
+
+.best p{
+    font-style: italic;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+.kirk{
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+}
+.support {
+    padding: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
